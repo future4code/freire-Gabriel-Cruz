@@ -6,7 +6,7 @@ const usuario = [
 
 const login = Number(prompt("digite sua senha "))
 
-if (login === usuario.senha){
+if (login === 123456){
     console.log('Usuario logado')
 }else {
     console.log('Senha inválida')
@@ -26,3 +26,13 @@ if (login === usuario.senha){
      console.log(`Informe nome e vaicina novamente`)
  }
 
+ const usuarios = [
+    { nome: "Artur", imunizacao: "incompleta" },
+    { nome: "Barbara", imunizacao: "incompleta" },
+    { nome: "Carlos", imunizacao: "incompleta" }
+]
+const atualizar = usuarios.replaceAll('incompleta','completa')
+console.log(atualizar)
+
+
+console.log(`Olá ${usuarios.nome}! Sua imunização está ${usuarios.imunizacao}, por favor volte ao postinho para tomar a segunda dose.`)
