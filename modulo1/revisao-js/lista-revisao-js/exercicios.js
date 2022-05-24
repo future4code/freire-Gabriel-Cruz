@@ -52,12 +52,11 @@ function retornaMaiorNumero(array) {
 }
 
 // EXERCÍCIO 07
-num1 = 1
-num2 = 2
-function retornaObjetoEntreDoisNumeros(num1, num2) {
+// function retornaObjetoEntreDoisNumeros(num1, num2) {
+//     maiorDivisivelPorMenor = num2%num1
 
-
-}
+//     return `maiorNumero:${num2},maiorDivisivelPorMenor:${maiorDivisivelPorMenor},diferenca:${num2-num1}`
+//}
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
@@ -71,6 +70,10 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
+    array.short((a,b) => a-b)
+    array2[-2]
+    array1[1]
+    return array1, array2
   
 }
 
@@ -100,13 +103,15 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
-contas.map(cliente) => {
-    clientecompras.map((compra) => {
-        clientesaldoTotal = cliente.saldoTotal - saldoTotal
+    return contas.map((cliente) => {
+        cliente.compras.map((compra) => {
+            cliente.saldoTotal = cliente.saldoTotal - compra
+        })
+        cliente.compra = []
+
+        return cliente
     })
 }
-}
-
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
   
