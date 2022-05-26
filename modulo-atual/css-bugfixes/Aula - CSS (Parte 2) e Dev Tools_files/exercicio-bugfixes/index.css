@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'roboto';
 }
 
 h2 {
@@ -14,11 +15,14 @@ h2 {
     padding: 10px 5px 10px 5px;
     color: white;
     text-align: center;
+    font-family: 'roboto';
 }
 
 input {
     height: 20px;
     width: 500px;
+    border: 0;
+    border-bottom: 2px solid;
 }
 
 button:focus {
@@ -26,16 +30,13 @@ button:focus {
 }
 
 img {
-    width: 100px;
+    width: 50px;
 }
 
 div>p:first-child {
     display: inline;
 }
 
-div img {
-    background: black;
-}
 
 .botao-amarelo {
     background-color: #ffaf43;
@@ -57,7 +58,7 @@ div img {
 }
 
 .icone {
-    height: 15px;
+    width: 15px;
 }
 
 
@@ -100,7 +101,8 @@ div:last-child {
 }
 
 table {
-    width: 60%; margin: auto;
+    width: 60%;
+    margin: auto;
 }
 
 td button {
@@ -111,11 +113,18 @@ td button {
     color: black;
 }
 
+td button:hover {
+    background-color: #6b5908;
+}
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
 }
 
+.container-do-search img:hover{
+    opacity: 50%;
+}
 
 #back-button {
     background-color: white;
