@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'roboto';
+}
+body{
+    background-color: cadetblue;
+}
+header h1 {
+    background-color: rgb(67, 134, 134);
+    text-align: center;
+    font-family: 'roboto';
+}
+.foto {
+    display: inline-block;
+    margin-left: 25%;
+    width: 300px;
+}
+
+.nome {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500px;
+}
+.nome1 {
+    padding: 150px;
+}
+.descr {
+    font-size: 300%;
+    display: inline-block;
+    
+}
+
+.descricao {
+    text-align: center;
+    font-size: 250%;
+}
+.list{
+    margin-left: 20%;
+    font-size: 250%;
+}
+
+.projs{
+    text-align: center;
+    font-size: 250%;
+    margin-top: 5%;
+}
+
+.musica {
+    text-align: center;
+    width: 25%;
+    margin-left: 38%;
+}
+
+.bugfixes {
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 1%;
+}
+
+.bugtext {
+    margin-left: 27%;
+    font-size: 120%;
+}
