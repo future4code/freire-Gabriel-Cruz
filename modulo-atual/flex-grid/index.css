@@ -34,7 +34,7 @@
     display: inline-block;
     background-color: #f2d0e0;
     width: 250px;
-    height: 560px;
+    height: 700px;
 }
 
 .buttonhome {
@@ -187,25 +187,43 @@
     font-family: 'roboto';
 }
 
-.bolos{
-    vertical-align: top;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.bolos1 {
-    vertical-align: top;
+.row{
     float: right;
     display: flex;
     flex-wrap: wrap;
-    height: 150px;
-    width: 150px;
-    border: 0px;
-    background-color: darkgray;
+    width: 1000;
+    height: 1500;
+}
+
+.card {
+    width: 140px;
+    height: 300px;
+    box-shadow: 7px 7px 13px 0 darkgray;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-basis: 23%;
+
+}
+
+.card:hover {
+    opacity: 80%;
+    box-shadow: darkgray;
 }
 
 .imgbolo{
-    width: 150px;
+    width: 242px;
+
+}
+
+.Bolochoco {
+    text-align: center;
+}
+
+.textbolo {
+    text-align: center;
+    margin-left: 28px;
+    font-size: 90%;
+    padding-left: 10px;
 }
