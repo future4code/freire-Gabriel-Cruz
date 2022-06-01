@@ -1,13 +1,13 @@
 * {
     font-family: 'roboto';
     margin: 0%;
+    
 }
 
 header{
     width: 100%;
     height: 80px;
     background-color: rgb(223, 106, 28);
-    border-radius: 1%;
 }
 
 h1 {
@@ -28,17 +28,26 @@ h1 {
 }
 
 .row {
-    width: 1312px;
+    width: 95%;
     height: 750px;
-    padding: 20px;
+    justify-content: space-around;
     background-color: beige;
-    grid-template-rows: 180px 180px 180px 180px;
-    grid-template-columns: 300px 300px 300px 300px;
+    padding: 2.5%;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     display: grid;
     row-gap: 100px;
     column-gap: 20px;
     align-items: stretch;
+    overflow-wrap:normal;
     box-shadow: green
+    
+}
+
+#botao{
+    width: 200px;
+    height: 265px;
+    vertical-align: top;
 }
 
 #buttonM1 {
@@ -50,6 +59,11 @@ h1 {
     background-color: rgb(247, 247, 247);
     border: 0px;
     padding-top: -25px;
+}
+
+#buttonM1:hover {
+    opacity: 80%;
+    background-color: rgb(184, 184, 153);
 }
 
 #imgm1{
@@ -64,22 +78,13 @@ h1 {
     font-size: medium;
 }
 
-.cardM2 {
-    width: 200px;
-    height: 265px;
-    box-shadow: 7px 7px 13px 0 green;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(247, 247, 247);
-}
-
 #imgm2 {
-    width: 200px;
+    width: 100%;
     height: 250px;
 }
 
 #img{
-    width: 200px;
+    width: 100%;
     height: 200px;
 }
 
@@ -95,4 +100,15 @@ h1 {
 #cardM3:hover{
     opacity: 80%;
     background-color: rgb(184, 184, 153);
+}
+
+footer {
+    background-color: rgb(223, 106, 28);
+    text-align: center;
+}
+
+
+@media screen and (min-width : 368px) and (max-device-width :480px){
+    .row {display:none ;}
+    
 }
