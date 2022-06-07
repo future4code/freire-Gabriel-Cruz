@@ -6,8 +6,8 @@ function CardPequeno (props) {
         <div className="smallcard-container">
             <img src={ props.imagem } />
             <div>
-                <h4>{ props.email }</h4>
-                <p>{ props.endereco }</p>
+                <h4>{ props.dado }</h4>
+                <p>{ props.informacao }</p>
             </div>
         </div>
     )

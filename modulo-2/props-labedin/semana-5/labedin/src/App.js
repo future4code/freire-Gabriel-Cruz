@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
-import CardPequeno from './components/CardPequeno';
+import CardPequeno from './components/CardPequeno/CardPequeno';
 import gabriel from './img/gabriel.JPG';
 import seta from './img/seta.jpg'
 import logonasa from './img/nasa.png'
@@ -12,11 +12,11 @@ function App() {
   return (
     <div className="App">
       <div className="page-section-container">
-        <h2>Dados pessais</h2>
+        <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem= {gabriel}
+          imagem= {gabriel} 
           nome="Gabriel da Silva Cruz" 
-          descricao="Oi, eu sou o Gabriel. Sou um dos alunos da Labenu. Eu estou desenvolvento conhecimento sobre JS, CSS e agora react."
+          descricao="Oi, eu sou o Gabriel. Sou um dos alunos da Labenu. Estudando para ser um bom FULLSTACK."
         />
         
         <ImagemButton 
@@ -24,13 +24,15 @@ function App() {
           texto="Ver mais"
         />
       </div>
-      <div className='dados'>
+
+      <div className='dados-container'>
         <CardPequeno
-        imagem= {email}
-        email= "Email:"
-        endereco= "gscruz.1997@gmail.com"
-        />
+          imagem={email}
+          dado= "Email:"
+          informacao= "gscruz.1997@gmail.com"
+          />
       </div>
+
       <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
