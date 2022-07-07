@@ -37,7 +37,8 @@
 }
 
 .card-perf-btn{
-  height: 350px;
+  align-items: center;
+  height: 30vw;
   width: 350px;
   border: solid 1px gray;
 }

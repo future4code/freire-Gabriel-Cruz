@@ -9,12 +9,12 @@ function App() {
     <Router>
       <header className='nav-perfil'>
         <h1 className='nameTittle'>AstroMatch</h1>
-        <a className='link-perf'>
+        <button className='link-perf'>
           <Link to='/'>Perfil</Link>
-        </a>
-        <a className='link-match'>
+        </button>
+        <button className='link-match'>
           <Link to='/pagmatch'>Match</Link>
-          </a>
+          </button>
       </header>
       <Routes>
         <Route path='/' element={<Perfil />} />

@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "../App.css";
 
 
+
 function Perfil(){
+
+    const [profile, setProfile]=useState([])
+
+
     return (
         <div>
             <h3 className="tittlePerfil">Perfil</h3>
