@@ -14,7 +14,10 @@ const App = () => {
     <div> 
     <Router>
       <header className='header' >
-
+        <Link to={Home}>Home</Link>
+        <Link to={ItemSelec}>Seleção de Item</Link>
+        <Link to={ListadeViagens}>Lista de Viagem</Link>
+        <Link to={Login}>Login</Link>
       </header>
       <main>
         <Routes>
