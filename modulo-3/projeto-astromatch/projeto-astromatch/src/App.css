@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*header.js*/
+.nameTittle {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.link-match{
+  margin-left: 10px;
+}
+
+.link-perf{
+  margin-left: 10px;
+}
+
+.nav-perfil {
+  border-bottom: solid 1px gray;
+
+}
+
+/*PagMatch*/
+
+.tittleMatches {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+/*Perfil*/
+
+.tittlePerfil{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.card-perf-btn{
+  align-items: center;
+  height: 30vw;
+  width: 350px;
+  border: solid 1px gray;
+}
+
+.card-perfs{
+  height: 85%;
+}
+
+.btn-prox-perf{
+  text-align: center;
+}
